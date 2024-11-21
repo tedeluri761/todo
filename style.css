@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+      font-family: 'Josefin Sans', sans-serif;
+      background: rgb(235, 233, 233);
+
+}
+
+header {
+
+    padding: 4.8rem 2.1rem 3.5rem;
+    background-image: url(assets/images/bg-mobile-light.jpg);
+background-size:375px 200px;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+.H1image{
+    display: flex;
+    gap: 19.5rem;
+}
+
+
+h1{
+    font-size: 2.7rem;
+    font-weight: 700;
+    letter-spacing: 0.9rem;
+    color: white;
+}
+
+.Moon{
+    width: 2rem;
+    height: 2rem;
+}
+
+.inputText {
+    width: 27.8rem;
+    height: 4.8rem;
+  
+    padding-left: 5.2rem;
+    border-radius: 0.5rem;
+    border: 0;
+    margin-top: 3.5rem;
+    text-align: start;
+    display: flex;
+}
+
+.inputText::placeholder {
+    text-align: start;
+    color: #aaa;
+
+}
+
+section {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+border-radius: 0.5rem;
+position: relative;
+margin: 0 2.3rem 0 1.8rem;
+top: 17.5rem;
+padding-bottom: 1rem;
+}
+
+
+.todo{
+display: flex;
+align-items: center;
+padding: 1.6rem 1.3rem 0;
+justify-content: space-between;
+}
+
+
+.cross {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+
+.imageTodo{
+    display: flex;
+    align-items: center;
+gap: 1.2rem;
+border: 1px;
+}
+
+.imageTodo p {
+font-size: 1.2rem;
+font-weight: 400;
+line-height: 1.2rem;
+letter-spacing: -0.1666666716337204px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(73, 76, 107, 1);
+
+}
+
+.Circle {
+    width: 2rem;
+height: 1.8rem;
+border-radius: 50%;
+border: 2px solid rgb(227, 225, 225);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+hr {
+    margin-top: 1.5rem;
+}
+
+.paragraphs {
+margin: 15rem 2.3rem 0  1.78rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+    background: rgba(255, 255, 255, 1);
+    position: relative;
+;
+border-bottom-left-radius: 0.5rem;
+border-bottom-right-radius: 0.5rem;
+}
+
+.paragraphs p {
+font-size: 1.2rem;
+font-weight: 400;
+line-height: 1.2rem;
+letter-spacing: -0.1666666716337204px;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(148, 149, 165, 1);
+padding: 1.6rem 1.3rem 2rem ;
+
+}
+
+footer {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 1.9rem;
+padding: 1.5rem 7rem;
+margin: 1rem 2.3rem 0  1.78rem;
+border-radius: 0.5rem;
+box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+background: rgba(255, 255, 255, 1);
+
+
+}
+
+footer  p {
+font-size: 1.4rem;
+font-weight: 700;
+line-height: 1.4rem;
+letter-spacing: -0.1944444477558136px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(148, 149, 165, 1);
+
+}
+
+.blue {
+    color: rgba(58, 124, 253, 1);
+
+}
+
+
+.lastParagraph {
+    margin-top: 3.2rem;
+    text-align: center;
+font-size: 1.4rem;
+font-weight: 400;
+line-height: 1.4rem;
+letter-spacing: -0.1944444477558136px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(148, 149, 165, 1);
+
+}
+
+
+.imageCheck {
+    display: none;
+}
+
+.line, .cross2, .circle2 {
+    display: none;
+}

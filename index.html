@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <div class="H1image" id="background">
+        <h1>TODO</h1>
+        <img class="Moon" id="sun" src="assets/images/icon-moon.svg" alt="" />
+      </div>
+      <input
+        class="inputText"
+        type="text"
+        name=""
+        id="input"
+        placeholder="Create a new todo…"
+      />
+    </header>
+
+    <main>
+      <section id="section">
+        <div class="HR-isgamo">
+          <div class="todo">
+            <div class="imageTodo">
+              <div class="Circle" id="circle2">
+                <img
+                  class="imageCheck"
+                  src="assets/images/icon-check.svg"
+                  alt=""
+                />
+              </div>
+              <p class="paragraphtodo">Complete online JavaScript course</p>
+            </div>
+            <img class="cross" src="assets/images/icon-cross.svg" alt="" />
+          </div>
+          <hr class="hr" />
+        </div>
+        <div class="HR-isgamo">
+          <div class="todo">
+            <div class="imageTodo">
+              <div class="Circle">
+                <img
+                  class="imageCheck"
+                  src="assets/images/icon-check.svg"
+                  alt=""
+                />
+              </div>
+              <p class="paragraphtodo">Jog around the park 3x</p>
+            </div>
+            <img class="cross" src="assets/images/icon-cross.svg" alt="" />
+          </div>
+          <hr class="hr" />
+        </div>
+        <div class="HR-isgamo">
+          <div class="todo">
+            <div class="imageTodo">
+              <div class="Circle">
+                <img
+                  class="imageCheck"
+                  src="assets/images/icon-check.svg"
+                  alt=""
+                />
+              </div>
+              <p class="paragraphtodo">10 minutes meditation</p>
+            </div>
+            <img class="cross" src="assets/images/icon-cross.svg" alt="" />
+          </div>
+          <hr />
+        </div>
+        <div class="HR-isgamo">
+          <div class="todo">
+            <div class="imageTodo">
+              <div class="Circle">
+                <img
+                  class="imageCheck"
+                  src="assets/images/icon-check.svg"
+                  alt=""
+                />
+              </div>
+              <p class="paragraphtodo">Read for 1 hour</p>
+            </div>
+            <img class="cross" src="assets/images/icon-cross.svg" alt="" />
+          </div>
+          <hr />
+        </div>
+        <div class="HR-isgamo">
+          <div class="todo">
+            <div class="imageTodo">
+              <div class="Circle">
+                <img
+                  class="imageCheck"
+                  src="assets/images/icon-check.svg"
+                  alt=""
+                />
+              </div>
+              <p class="paragraphtodo">Pick up groceries</p>
+            </div>
+            <img class="cross" src="assets/images/icon-cross.svg" alt="" />
+          </div>
+
+          <hr />
+        </div>
+        <div class="HR-isgamo">
+          <div class="todo">
+            <div class="imageTodo">
+              <div class="Circle">
+                <img
+                  class="imageCheck"
+                  src="assets/images/icon-check.svg"
+                  alt=""
+                />
+              </div>
+              <p class="paragraphtodo">Complete Todo App on Frontend Mentor</p>
+            </div>
+            <img class="cross" src="assets/images/icon-cross.svg" alt="" />
+          </div>
+          <hr class="hr" />
+        </div>
+      </section>
+
+      <div class="paragraphs" id="paragraphs">
+        <p><span id="numberItems">6</span> items left</p>
+        <p id="Clear">Clear Completed</p>
+      </div>
+      <footer id="footer">
+        <p class="blue" onclick="allTodo()" id="alltodo">All</p>
+        <p id="active">Active</p>
+        <p id="completed">Completed</p>
+      </footer>
+      <p class="lastParagraph">Drag and drop to reorder list</p>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
